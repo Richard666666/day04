@@ -8,7 +8,7 @@ import java.lang.Thread;
 
 
 
-/******************************************************/
+/**********************五指棋的跳棋********************************/
 public class  Jump extends JFrame
 {
 	BufferedImage buffer=new BufferedImage(800,600,1);
@@ -21,7 +21,7 @@ public class  Jump extends JFrame
 		setResizable(false);
 		setLocationRelativeTo(null);
 		setTitle("Android robot  VS  Minions");
-		setDefaultCloseOperation(EXIT_ON_CLOSE);//�ش����˳�Ӧ�ó���
+		setDefaultCloseOperation(EXIT_ON_CLOSE);//¹Ø´°¿ÚÍË³öÓ¦ÓÃ³ÌÐò
 		Timer timer=new Timer(300,(e)->{
 			//ro.move1();
 			ro.move2();
